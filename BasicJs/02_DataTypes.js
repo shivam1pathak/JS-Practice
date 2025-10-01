@@ -9,6 +9,7 @@
 These are basic data types that are immutable (cannot be changed once created).
 
 Data Type           	       Description	                                              Example
+
 String	                    Sequence of characters	                                     "Hello", 'JavaScript'
 Number	                    Numeric values (integers or floats)	                          10, 3.14, -5
 BigInt	                    Numbers larger than Number.MAX_SAFE_INTEGER	                  9007199254740991n
@@ -23,6 +24,7 @@ Symbol	                    Unique and immutable identifier	                     
 These are objects that can store multiple values and are mutable.
 
 Data Type                           	Description	                                                Example
+
 Object	                           Collection of key-value pairs	                let obj = {name: "Shivam", age: 25};
 Array	                           Ordered list of values	                        let arr = [1, 2, 3, 4];
 Function	                       A block of reusable code	                        function greet() { console.log("Hi"); }
@@ -47,12 +49,13 @@ console.log(arr.length);
 
 console.log(arr[1]);
 
-//   Function declarations hoist hoti hain
+/*   Function declarations hoist hoti hain, kyunki pure function ka code memory me pehle se load ho jata hai.
+Isliye aap function ko define karne se pehle bhi call kar sakte ho:*/
 
 greet(); // "Hello"
 function greet() { console.log("Hello"); }
 
-//    lekin function expressions nahi:
+//    lekin function expressions nahi: JS sirf variable ko hoist karta hai, function value ko nahi.
 
 greet(); // Error
 var greet = function() { console.log("Hi"); }
