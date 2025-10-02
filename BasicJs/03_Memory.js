@@ -46,3 +46,4 @@ console.log(obj2.age);
 // Yahaan { name: "Shivam", age:44 } heap me store hua.
 // Stack me obj1 aur obj2 ke paas same reference (address) hai.
 // Isliye agar obj2 change kiya, to obj1 bhi change ho gaya.
+
