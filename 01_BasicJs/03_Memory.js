@@ -13,8 +13,8 @@ let y = x;
 
 y = 20;
 
-console.log (x);
-console.log (y);
+console.log (x);    // 10
+console.log (y);   //  20
 
 //  x aur y dono ki values alag-alag stack me copy hui hain.
 //  Isliye y badalne se x par koi effect nahi pada.
@@ -37,13 +37,15 @@ let obj2=obj1;
 obj2.name = "pathak";
 obj2.age = 33;
 
-console.log(obj1.name);
-console.log(obj2.name);
-console.log(obj1.age);
-console.log(obj2.age);
+console.log(obj1.name); // pathak
+console.log(obj2.name); // pathak
+console.log(obj1.age);  // 33
+console.log(obj2.age);  // 33
 
 
 // Yahaan { name: "Shivam", age:44 } heap me store hua.
 // Stack me obj1 aur obj2 ke paas same reference (address) hai.
 // Isliye agar obj2 change kiya, to obj1 bhi change ho gaya.
+
+
 
