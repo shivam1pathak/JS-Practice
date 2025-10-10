@@ -149,19 +149,21 @@ let d = new Date();
 let options = {
   weekday: "long",   // "long" => Monday, "short" => Mon
   year: "numeric",   // "2-digit" => 25, "numeric" => 2025
-  month: "long",     // "long" => October, "short" => Oct, "numeric" => 10
+  month: "short",     // "long" => October, "short" => Oct, "numeric" => 10
   day: "2-digit",    // "2-digit" => 07, "numeric" => 7
   hour: "2-digit",   // time ke liye
   minute: "2-digit",
-  second: "2-digit",
-  hour12: true       // true => 12hr AM/PM, false => 24hr
+  hour12:true ,      // true => 12hr AM/PM, false => 24hr
+  second: "2-digit"
+        
 };
 console.log("Example with options");
 console.log(d.toLocaleString("en-IN", options));
 }
 
 
-/*  Commonly Used options List
+/*  ================================= Commonly Used options List ==================================
+
 Option	                    Values                                      	Description
 weekday	            "long", "short", "narrow"	                           Week day name (Monday / Mon / M)
 year	            "numeric", "2-digit"	                               Year display format
