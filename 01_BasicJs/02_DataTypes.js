@@ -1,7 +1,7 @@
 /*--------------------------- Data Types ----------------------------------*/
 
-/* 1.Data types are the classification of values that determine what kind of operations can be performed on them.
-   2.JavaScript has two main categories of data types: Primitive and Non-Primitive (Reference) types.*/
+/* 1-> Data types are the classification of values that determine what kind of operations can be performed on them.
+   2-> JavaScript has two main categories of data types: Primitive and Non-Primitive (Reference) types.*/
 
 
   /* --------------------- 1. Primitive Data Types -------------------------
@@ -75,4 +75,6 @@ console.log({} + []); // 0 ya "[object Object]" depending on context
 console.log(0.1 + 0.2); // 0.30000000000000004
 
 console.log(NaN === NaN); // false
+
+
 
