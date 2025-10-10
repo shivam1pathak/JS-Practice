@@ -54,6 +54,7 @@
 
 // 7. slice(start, end) / substring(start, end)
 // String ka ek part nikalta hai.
+// last index count nahi hota hai..like index(2 to 6) to wo 2 se 5 tak hi count hoga.
 
 {
   let str = "ShivamPathak";
