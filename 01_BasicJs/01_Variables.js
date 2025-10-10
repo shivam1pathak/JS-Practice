@@ -22,7 +22,7 @@ if (true) {
 
 } // function scope end here 
 
-// console.log(x); we can't access "x" here.bacuase this is outside the function.
+// console.log(x);   -> we can't access "x" here.bacuase this is outside the function.
 shivam();  // calling the function to execute code
 
 /*-------------------------------------------------------------------------------------*/
