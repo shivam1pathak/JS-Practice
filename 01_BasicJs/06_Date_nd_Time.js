@@ -11,7 +11,6 @@ console.log(d.getFullYear()); // 2025
 
 // 2. getMonth()
 // Current month (0-11) return karta hai.
-
 {
   let d = new Date();
   console.log(d.getMonth()); // 9 => October
@@ -19,7 +18,6 @@ console.log(d.getFullYear()); // 2025
 
 // 3. getDate()
 // Month ka date return karta hai (1-31).
-
 {
   let d = new Date();
   console.log(d.getDate()); //  aaj jo date hoga wo day print karega..
@@ -27,7 +25,6 @@ console.log(d.getFullYear()); // 2025
 
 // 5. getHours(), getMinutes(), getSeconds(), getMilliseconds()
 // Time ke parts return karte hain.jo current time chal raha hoga use hi print karega...
-
 {
   let d = new Date();
   console.log(d.getHours());
@@ -38,7 +35,6 @@ console.log(d.getFullYear()); // 2025
 
 // 6. getTime()
 // Date ko milliseconds me return karta hai since Jan 1, 1970.
-
 {
   let d = new Date();
   console.log(d.getTime());
@@ -46,17 +42,16 @@ console.log(d.getFullYear()); // 2025
 
 // 7. getTimezoneOffset()
 // Local timezone aur UTC ke beech ka difference minutes me.
-
 {
   let d = new Date();
   console.log(d.getTimezoneOffset()); // -330 => IST is UTC+5:30
 }
 
+
 // ============================== Setting Date & Time (Set Methods) =========================================
 
 // 1. setFullYear(year) / setFullYear(year, month, day)
 // Year set karne ke liye.
-
 {
   let d = new Date();
   d.setFullYear(2030);
@@ -64,7 +59,6 @@ console.log(d.getFullYear()); // 2025
 }
 
 // Note: apni custom format me print bhi kar sakte ho:
-
 {
   let d = new Date(2025, 5, 9);
   console.log(`Date: ${d.getDate()}-${d.getMonth()}-${d.getFullYear()}`); // Date: 9-5-2025
@@ -72,7 +66,6 @@ console.log(d.getFullYear()); // 2025
 
 // 4. setHours(hour) / setMinutes(min) / setSeconds(sec) / setMilliseconds(ms)
 // Time set karte hain. aur apni custom format me print bhi kar sakte ho:
-
 {
   let d = new Date();
   d.setHours(10);
