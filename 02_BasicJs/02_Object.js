@@ -241,7 +241,7 @@ Agar dono objects ki key same hai to keys overwrite ho jati hai.*/
 
 /*------------------------------------------------------- 8. Spread Operator {...} ------------------------------------------------------
 🔸 Definition:
-Spread operator (...) ka use object ka clone (copy) banane ya multiple objects merge karne ke liye hota hai.
+Spread operator {}...} ka use object ka clone (copy) banane ya multiple objects merge karne ke liye hota hai.
 
 🔸 Important Work:
 Ye ek immutable copy banata hai — matlab original object directly modify nahi hota.
